@@ -1,0 +1,172 @@
+ .link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+  }
+
+  .logo{
+    float: right;
+
+  }
+
+  header{
+    position: fixed;/*hace qe el menu este fijo*/
+    background: white;
+    width: 100%;
+    top: 0;
+  }
+  .menu{
+  padding: 14px 70px
+  overflow: auto;
+
+  }
+  #home{
+  background-image: url(../img/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+  }
+
+  #home .container{
+  color: white;
+  padding: 70px;
+  }
+
+  .text-home{
+  font-size: 53px;
+  }
+
+  .btn-home{
+   background: #2ECC71;
+   color: #FFF;
+   padding: 11px 20px;
+   border-radius: 1px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-top: 63px;
+   display: inline-block;
+   font-size: 14px;
+
+}
+
+ #services{
+  background-color: #f17c72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px; /*relleno en el boton  */
+ }
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+  }
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+
+}
+footer{
+  text-align: center;
+  height: 70px;
+  background: #000;
+  color:white;
+  padding-top: 7px;
+
+}
+#laptop{
+width:800px;
+height:630px;
+padding-top:59px;
+}
+#work{
+text-align: center;
+}
+.div-imagen img{
+  width: 100%;
+	height: 100%;
+
+}
+
+.div-imagen{
+	display: inline-block;
+  /*position: relative;*/
+  padding: 10px;
+  width: 350px;
+	margin:5px;
+}
+
+.div-imagen img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+#caption {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    position: absolute;
+}
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    margin-left: 250px;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
