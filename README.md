@@ -1,1 +1,1 @@
-AQUÍ PUEDE VER EL  INDEX : https://princess-claymore.github.io/appLove-2/
+INDEX (MODAL EN JS Y CSS) ,: https://princess-claymore.github.io/appLove-2/
